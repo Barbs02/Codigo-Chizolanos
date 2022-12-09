@@ -1,0 +1,132 @@
+// Importacion Boostrap
+
+@import "../bootstrap-5.2.3/scss/bootstrap.scss";
+
+// Variables
+$color-1:#D34F1F;
+$color-2: $white;
+$color-3: #221515;
+$tipografia-1:'Lora', serif;
+$tipografia-2:'Roboto', sans-serif; 
+
+//importaciones de tipografia
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;500;700&display=swap'); // Lora
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap'); // Roboto
+
+// Mixin
+
+@mixin titulo {
+    color:$color-1;
+    font-size: 35px;
+    font-family: $tipografia-1;
+    font-weight: 700;
+}
+
+// Codigos generales 
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+// Inicio
+/*Inicio*/
+
+/*Header*/
+
+header {
+    background-image: url(../img/istockphoto-164494339-612x612.png);
+    nav {
+        .nav-link {
+            font-family: $tipografia-2;
+            color: $color-3;
+            font-size: 16px;
+        }
+        .navbar-nav .show  .nav-link,
+.navbar-nav .nav-link.active {
+    color: $color-1;
+    border-bottom: $color-1 3px solid;
+}
+.nav-link:hover {
+    color: $color-1;
+    border-bottom: $color-1 3px solid;
+}
+    }
+
+    .section1-inicio{
+        img{
+            width: 100%; 
+        }
+
+        h1{
+            @include titulo;
+        }
+
+        p{
+            color: $color-3;
+            font-size: 20px;
+            font-family: $tipografia-2;
+            font-weight: 500;
+            
+        }
+    }
+
+}
+
+/*Section 1 Inicio*/
+.section-1-inicio{
+    h2{
+        @include titulo;
+    }
+
+    .btn{
+        color: $color-1;
+        border-color: $color-1;   
+
+        &:hover{
+            background-color: $color-1;
+            color: #fff;
+            border-color: $color-1;
+        }
+    }
+}
+
+/*Section 2 Inicio*/
+
+.section-2-inicio{
+    h2{
+        @include titulo;
+    }
+
+    img{
+        width:100%;
+    }
+
+}
+
+/*Section Message*/
+
+.message-inicio{
+    position: absolute;
+    img{
+        width: 100%;
+        position: relative;
+        z-index: -1;
+    }
+    p{
+        font-size: 22px;
+        font-family: $tipografia-1;
+        font-weight: 500;
+    }
+    .btn-outline-danger{
+        color: $color-1;
+        border-color: $color-1;   
+
+        &:hover{
+            background-color: $color-1;
+            color: #fff;
+            border-color: $color-1;
+        }
+    }
+}

@@ -36,11 +36,8 @@ $tipografia-2:'Roboto', sans-serif;
 /*Header*/
 
 header{
-    background-color: #fff;
-}
-
-header {
     background-image: url(../img/istockphoto-164494339-612x612.png);
+    background-image: none;
     nav {
         .nav-link {
             font-family: $tipografia-2;

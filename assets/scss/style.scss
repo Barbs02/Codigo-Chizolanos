@@ -108,12 +108,8 @@ header {
 /*Section Message*/
 
 .message-inicio{
-    position: absolute;
-    img{
-        width: 100%;
-        position: relative;
-        z-index: -1;
-    }
+    background-image: url(../img/istockphoto-164494339-612x612.png);
+
     p{
         font-size: 22px;
         font-family: $tipografia-1;

@@ -10945,6 +10945,7 @@ textarea.form-control-lg {
 /*Header*/
 header {
   background-image: url(../img/istockphoto-164494339-612x612.png);
+  background-image: none;
 }
 header nav .nav-link {
   font-family: "Roboto", sans-serif;
@@ -11021,4 +11022,33 @@ header .section1-inicio p {
   background-color: #D34F1F;
   color: #fff;
   border-color: #D34F1F;
+}
+
+.container-fluid .row, .container-sm .row, .container-md .row, .container-lg .row, .container-xl .row, .container-xxl .row {
+  text-align: center;
+}
+.container-fluid .mt-0, .container-sm .mt-0, .container-md .mt-0, .container-lg .mt-0, .container-xl .mt-0, .container-xxl .mt-0 {
+  color: #D34F1F;
+  margin-bottom: 15px;
+  font-family: "Book Antiqua", sans-serif;
+  text-align: justify;
+}
+.container-fluid p, .container-sm p, .container-md p, .container-lg p, .container-xl p, .container-xxl p {
+  text-align: initial;
+  width: 310px;
+}
+.container-fluid .w-100, .container-sm .w-100, .container-md .w-100, .container-lg .w-100, .container-xl .w-100, .container-xxl .w-100 {
+  width: 560px !important;
+  padding-left: 70px;
+  padding-right: 70px;
+}
+.container-fluid .p-4, .container-sm .p-4, .container-md .p-4, .container-lg .p-4, .container-xl .p-4, .container-xxl .p-4 {
+  margin-top: 60px;
+}
+.container-fluid .mb-md-0, .container-sm .mb-md-0, .container-md .mb-md-0, .container-lg .mb-md-0, .container-xl .mb-md-0, .container-xxl .mb-md-0 {
+  margin-top: 60px;
+}
+
+.container row {
+  text-align: center;
 }/*# sourceMappingURL=style.css.map */

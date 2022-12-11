@@ -164,9 +164,10 @@ header{
 
 }
 
-.container{
-    
-    row{
+.container.orange{
+    background-color: #D34F1F;
+
+    .row{
         text-align: center;
 
     }

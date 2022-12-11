@@ -11049,6 +11049,9 @@ header .section1-inicio p {
   margin-top: 60px;
 }
 
-.container row {
+.container.orange {
+  background-color: #D34F1F;
+}
+.container.orange .row {
   text-align: center;
 }/*# sourceMappingURL=style.css.map */

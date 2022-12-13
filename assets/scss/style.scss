@@ -130,3 +130,46 @@ header{
         }
     }
 }
+
+// Nosotros 
+.container-fluid{
+    .row{
+        text-align: center;
+    }
+
+    .mt-0{
+        color: #D34F1F;
+        margin-bottom: 15px ;
+        font-family: $tipografia-3;
+        text-align: justify;
+    }
+
+    p{
+        text-align: initial;
+        width: 310px;  
+    }
+
+    .w-100{
+        width: 560px !important;
+        padding-left: 70px;
+        padding-right: 70px;
+    }
+
+    .p-4{
+        margin-top: 60px;
+    }
+
+    .mb-md-0{
+        margin-top: 60px;
+    }
+
+}
+
+.container.orange{
+    background-color: #D34F1F;
+
+    .row{
+        text-align: center;
+
+    }
+}

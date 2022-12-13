@@ -10945,6 +10945,7 @@ textarea.form-control-lg {
 /*Header*/
 header .img-header {
   background-image: url(../img/istockphoto-164494339-612x612.png);
+  background-image: none;
 }
 header nav .nav-link {
   font-family: "Roboto", sans-serif;
@@ -11021,8 +11022,4 @@ header .section1-inicio p {
   background-color: #D34F1F;
   color: #fff;
   border-color: #D34F1F;
-}
-
-.cards img {
-  width: 100%;
 }/*# sourceMappingURL=style.css.map */

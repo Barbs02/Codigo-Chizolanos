@@ -137,6 +137,31 @@ header{
         @include titulo;
     }
 }
+.overlay{
+    position: absolute;
+    top: 0;
+    bottom:0;
+    left:0;
+    right: 0;
+    height: auto;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #d34f1fd8;
+}
+
+.image-overlay{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+
+    img{
+        width: 48px;
+        height: 30px;
+    }
+}
 
 .card{
     background-color: $color-1;

@@ -11022,4 +11022,52 @@ header .section1-inicio p {
   background-color: #D34F1F;
   color: #fff;
   border-color: #D34F1F;
+}
+
+/*Productos*/
+.cards h2, .cards .h2 {
+  color: #D34F1F;
+  font-size: 35px;
+  font-family: "Lora", serif;
+  font-weight: 700;
+}
+
+.card {
+  background-color: #D34F1F;
+  color: #fff;
+  font-weight: 700;
+  font-size: 20px;
+  font-family: "Lora", serif;
+}
+
+.container-fluid .row, .container-sm .row, .container-md .row, .container-lg .row, .container-xl .row, .container-xxl .row {
+  text-align: center;
+}
+.container-fluid .mt-0, .container-sm .mt-0, .container-md .mt-0, .container-lg .mt-0, .container-xl .mt-0, .container-xxl .mt-0 {
+  color: #D34F1F;
+  margin-bottom: 15px;
+  font-family: "Lora", serif;
+  text-align: justify;
+}
+.container-fluid p, .container-sm p, .container-md p, .container-lg p, .container-xl p, .container-xxl p {
+  text-align: initial;
+  width: 310px;
+}
+.container-fluid .w-100, .container-sm .w-100, .container-md .w-100, .container-lg .w-100, .container-xl .w-100, .container-xxl .w-100 {
+  width: 560px !important;
+  padding-left: 70px;
+  padding-right: 70px;
+}
+.container-fluid .p-4, .container-sm .p-4, .container-md .p-4, .container-lg .p-4, .container-xl .p-4, .container-xxl .p-4 {
+  margin-top: 60px;
+}
+.container-fluid .mb-md-0, .container-sm .mb-md-0, .container-md .mb-md-0, .container-lg .mb-md-0, .container-xl .mb-md-0, .container-xxl .mb-md-0 {
+  margin-top: 60px;
+}
+
+.container.orange {
+  background-color: #D34F1F;
+}
+.container.orange .row {
+  text-align: center;
 }/*# sourceMappingURL=style.css.map */

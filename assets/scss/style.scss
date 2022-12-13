@@ -8,7 +8,6 @@ $color-2: $white;
 $color-3: #221515;
 $tipografia-1:'Lora', serif;
 $tipografia-2:'Roboto', sans-serif;
-$tipografia-3: 'Book Antiqua', sans-serif;
 
 //importaciones de tipografia
 @import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;500;700&display=swap'); // Lora
@@ -131,6 +130,21 @@ header{
     }
 }
 
+// Productos
+/*Productos*/
+.cards{
+    h2{
+        @include titulo;
+    }
+}
+
+.card{
+    background-color: $color-1;
+    color: $color-2;
+    font-weight: 700;
+    font-size: 20px;
+    font-family: $tipografia-1;
+}
 // Nosotros 
 .container-fluid{
     .row{
@@ -140,7 +154,7 @@ header{
     .mt-0{
         color: #D34F1F;
         margin-bottom: 15px ;
-        font-family: $tipografia-3;
+        font-family: $tipografia-1;
         text-align: justify;
     }
 

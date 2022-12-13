@@ -36,7 +36,9 @@ $tipografia-2:'Roboto', sans-serif;
 /*Header*/
 
 header {
-    background-image: url(../img/istockphoto-164494339-612x612.png);
+    .img-header{
+        background-image: url(../img/istockphoto-164494339-612x612.png);
+    }
     nav {
         .nav-link {
             font-family: $tipografia-2;
@@ -124,5 +126,129 @@ header {
             color: #fff;
             border-color: $color-1;
         }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.cards{
+    img{
+        width: 100%;
     }
 }

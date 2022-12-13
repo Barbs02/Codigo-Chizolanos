@@ -10943,7 +10943,7 @@ textarea.form-control-lg {
 
 /*Inicio*/
 /*Header*/
-header {
+header .img-header {
   background-image: url(../img/istockphoto-164494339-612x612.png);
 }
 header nav .nav-link {
@@ -11021,4 +11021,8 @@ header .section1-inicio p {
   background-color: #D34F1F;
   color: #fff;
   border-color: #D34F1F;
+}
+
+.cards img {
+  width: 100%;
 }/*# sourceMappingURL=style.css.map */

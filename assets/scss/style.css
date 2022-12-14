@@ -11032,6 +11032,31 @@ header .section1-inicio p {
   font-weight: 700;
 }
 
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: auto;
+  width: 100%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: rgba(211, 79, 31, 0.8470588235);
+}
+
+.image-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+.image-overlay img {
+  width: 48px;
+  height: 30px;
+}
+
 .card {
   background-color: #D34F1F;
   color: #fff;
@@ -11060,6 +11085,7 @@ header .section1-inicio p {
 }
 .container-fluid .p-4, .container-sm .p-4, .container-md .p-4, .container-lg .p-4, .container-xl .p-4, .container-xxl .p-4 {
   margin-top: 60px;
+  margin-bottom: 180px;
 }
 .container-fluid .mb-md-0, .container-sm .mb-md-0, .container-md .mb-md-0, .container-lg .mb-md-0, .container-xl .mb-md-0, .container-xxl .mb-md-0 {
   margin-top: 60px;
@@ -11067,7 +11093,16 @@ header .section1-inicio p {
 
 .container.orange {
   background-color: #D34F1F;
+  margin: auto;
 }
 .container.orange .row {
   text-align: center;
+}
+.container.orange .col p {
+  text-align: center;
+  color: #fff;
+}
+.container.orange .col {
+  margin-top: 10px;
+  padding: 50px;
 }/*# sourceMappingURL=style.css.map */

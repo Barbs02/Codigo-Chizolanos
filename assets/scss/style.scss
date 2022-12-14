@@ -196,6 +196,7 @@ header{
 
     .p-4{
         margin-top: 60px;
+        margin-bottom: 180px;
     }
 
     .mb-md-0{
@@ -206,9 +207,19 @@ header{
 
 .container.orange{
     background-color: #D34F1F;
+    margin: auto;
 
     .row{
         text-align: center;
 
+    }
+    .col p{
+        text-align: center;
+        color: #fff;
+    }
+
+    .col{
+        margin-top: 10px;
+        padding: 50px;
     }
 }

@@ -37,8 +37,9 @@ $tipografia-2:'Roboto', sans-serif;
 
 header{
     .img-header{
-        background-image: url(../img/istockphoto-164494339-612x612.png);
-        background-image: none;
+        background-image: url(../img/fondo-gris.png);
+        background-repeat: no-repeat;
+    }
     }
     nav {
         .nav-link {
@@ -75,13 +76,12 @@ header{
         }
     }
 
-}
-
 /*Section 1 Inicio*/
 .section-1-inicio{
     h2{
         @include titulo;
     }
+
 
     .btn{
         color: $color-1;
@@ -93,6 +93,13 @@ header{
             border-color: $color-1;
         }
     }
+}
+.cards-wrapper{
+    display: flex;
+}
+.card{
+    margin: 0.5em;
+    width: calc(100%/3);
 }
 
 /*Section 2 Inicio*/
@@ -132,11 +139,38 @@ header{
 
 // Productos
 /*Productos*/
+
 .cards{
     h2{
         @include titulo;
     }
 }
+
+.polaroid{
+
+    position: relative;
+    background-color: $color-1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+
+    &:hover .overlay{
+        opacity: 1;
+    }
+
+    img{
+        width: 100%;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+
+    p{
+        color: $color-2;
+        font-weight: 700;
+        font-family: $tipografia-1;
+        font-size: 20px;
+    }
+}
+
 .overlay{
     position: absolute;
     top: 0;
@@ -148,28 +182,25 @@ header{
     opacity: 0;
     transition: .5s ease;
     background-color: #d34f1fd8;
+    border-radius: 10px;
 }
 
-.image-overlay{
+.text-icon{
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
 
-    img{
-        width: 48px;
-        height: 30px;
+    p{
+        font-family: $tipografia-2;
+        font-size: 25px;
+        font-weight: 300;
     }
+
+
 }
 
-.card{
-    background-color: $color-1;
-    color: $color-2;
-    font-weight: 700;
-    font-size: 20px;
-    font-family: $tipografia-1;
-}
 // Nosotros 
 .container-fluid{
     .row{
@@ -204,11 +235,58 @@ header{
 
 }
 
-.container.orange{
+.container-orange{
+
     background-color: #D34F1F;
 
     .row{
         text-align: center;
-
     }
+
+    p{
+        color: $color-2;
+        font-size: 16px;
+        font-family: $tipografia-2;
+    }
+}
+
+// Footer
+/*Footer*/
+
+footer{
+    background-color: $color-3;
+    h2{
+        @include titulo;
+    }
+    p{
+        color: $color-2;
+    }
+
+    nav{
+
+        li{
+            list-style: none;
+
+            a{
+                text-decoration: none;
+                color: $color-2;
+                font-size: 16px;
+                font-family: $tipografia-2;
+
+                &:hover{
+                    color: $color-1;
+                }
+            }
+        }
+    }
+
+    .contacto-inicio{
+        .img-icono{
+            width: 20px;
+            height: 20px;
+            position: relative;
+            z-index: 10;
+        }
+    }
+
 }

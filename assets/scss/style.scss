@@ -236,7 +236,7 @@ header{
 
 }
 
-.container-orange{
+.container.text-center.container-orange.p-4{
 
     background-color: #D34F1F;
     margin: auto;
@@ -244,7 +244,6 @@ header{
     .row{
         text-align: center;
     }
-<<<<<<< HEAD
     .col p{
         text-align: center;
         color: #fff;
@@ -254,53 +253,24 @@ header{
         margin-top: 10px;
         padding: 50px;
     }
-=======
-
-    p{
-        color: $color-2;
-        font-size: 16px;
-        font-family: $tipografia-2;
-    }
 }
 
-// Footer
-/*Footer*/
 
-footer{
-    background-color: $color-3;
-    h2{
-        @include titulo;
+.container-fluid.col-md-1{
+    .row{
+        text-align: center;
+    }
+    .mt-0{
+        color: #D34F1F;
+        margin-bottom: 15px ;
+        font-family: $tipografia-1;
+        text-align: justify;
     }
     p{
-        color: $color-2;
+        text-align: initial;
+        width: 310px;  
     }
 
-    nav{
 
-        li{
-            list-style: none;
 
-            a{
-                text-decoration: none;
-                color: $color-2;
-                font-size: 16px;
-                font-family: $tipografia-2;
-
-                &:hover{
-                    color: $color-1;
-                }
-            }
-        }
-    }
-
-    .contacto-inicio{
-        .img-icono{
-            width: 20px;
-            height: 20px;
-            position: relative;
-            z-index: 10;
-        }
-    }
-
->>>>>>> 82d70a0034069ce466aa4997d9e4fbeb6a773a71
 }
